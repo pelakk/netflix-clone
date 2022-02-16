@@ -1,0 +1,44 @@
+@font-face {
+    font-family: circular-std;
+    src: url('../assets/circular-std.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: circular-std;
+    font-weight: lighter;
+}
+
+.row_container {
+    width: 95%;
+    margin-left: 2%;
+}
+
+.row_container h3 {
+    padding: 30px 0 10px 3%;
+}
+
+.row_movies {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    object-fit: contain;
+}
+
+.row_movies > img {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 400ms;
+    cursor: pointer;
+}
+
+.row_movies > img:hover {
+    transform: scale(1.08);
+}
+
+.row_movies::-webkit-scrollbar {
+    display: none;
+}

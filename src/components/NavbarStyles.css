@@ -1,0 +1,23 @@
+@font-face {
+    font-family: circular-std;
+    src: url('../assets/circular-std.ttf');
+  }
+
+.navbar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 56px 30px 56px;
+}
+
+.navbar_button {
+    background-color: #e50914;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-family: circular-std;
+    cursor: pointer;
+}
